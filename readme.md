@@ -16,5 +16,7 @@
 - Run `python getstream.py` from the command line
 
 If you wish to visualise the data, an IPython notebook is provided:  
-
 Run IPython in notebook mode using `ipython notebook --pylab inline`. In your browser, you can then open `visualise_tweets.ipynb`, and run the cell.
+
+![Tweets by day](example.png "Tweets by day")
+
