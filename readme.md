@@ -1,4 +1,4 @@
-*Not intended for production use**
+*Not intended for production use*
 
 
 - Install requirements using `pip install -r requirements.txt`
