@@ -1,5 +1,6 @@
 SQLAlchemy
 alembic
+pandas
 ipython==0.13.2
 psycopg2==2.5
 requests==1.2.0
