@@ -18,5 +18,5 @@
 If you wish to visualise the data, an IPython notebook is provided:  
 Run IPython in notebook mode using `ipython notebook --pylab inline`. In your browser, you can then open `visualise_tweets.ipynb`, and run the cell.
 
-![Tweets by day](example.png "Tweets by day")
+[![Tweets by day](example.png "Tweets per Day")](http://nbviewer.ipython.org/urls/raw.github.com/urschrei/tweetstodb/master/visualise_tweets.ipynb "IPython Notebook viewer")
 
