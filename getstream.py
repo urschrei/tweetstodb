@@ -95,7 +95,8 @@ def main():
     twet = tweepy.API(twitter)
     follower_set = set(tweepy.Cursor(
         twet.followers_ids, screen_name=to_follow).items())
-    follower_list = list(follower_set)
+    follower_list = list(follower_set)[:5000]
+    print len(follower_list)
 
     # initialise our DB writer coroutine
     adder = add_to_db()
