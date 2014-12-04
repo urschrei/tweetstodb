@@ -15,8 +15,9 @@
 - In `main()`, change the `to_follow` variable to the Twitter user whose followers' Tweets you wish to retrieve
 - Run `python getstream.py` from the command line
 
-If you wish to visualise the data, an [IPython notebook](http://nbviewer.ipython.org/urls/github.com/urschrei/tweetstodb/raw/master/visualise_tweets.ipynb) is provided.  
-If you wish to run this interactively, run IPython in notebook mode using `ipython notebook --pylab inline`. In your browser, you can then open `visualise_tweets.ipynb`, and run the cells.
+If you wish to visualise the data, an [IPython notebook](http://nbviewer.ipython.org/urls/github.com/urschrei/tweetstodb/raw/master/visualise_tweets.ipynb) is provided.
+
+For offline analysis (using dumped CSV data), run [this IPython notebook](http://nbviewer.ipython.org/urls/github.com/urschrei/tweetstodb/raw/master/visualise_tweets_csv.ipynb).
 
 [![Tweets by day](example.png "Tweets per Day")](http://nbviewer.ipython.org/urls/raw.github.com/urschrei/tweetstodb/master/visualise_tweets.ipynb "IPython Notebook viewer")
 
