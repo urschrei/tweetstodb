@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+# Copyright 2014 Stephan Hügel
+# License: MIT (see license.txt)
 """ Process app stream events filtered by users it follows """
 
 # first, install requirements using pip install -r requirements.txt

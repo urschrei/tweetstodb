@@ -1,5 +1,6 @@
-*Not intended for production use*
+[![Tweets by day](example.png "Tweets per Day")](http://nbviewer.ipython.org/urls/raw.github.com/urschrei/tweetstodb/master/visualise_tweets_csv.ipynb "IPython Notebook viewer")
 
+*Not intended for production use*
 
 - Install requirements using `pip install -r requirements.txt`
 - Ensure a Postgres DB called `tweetstream` exists:
@@ -19,5 +20,6 @@ If you wish to visualise the data, an [IPython notebook](http://nbviewer.ipython
 
 For offline analysis (using dumped CSV data), run [this IPython notebook](http://nbviewer.ipython.org/urls/github.com/urschrei/tweetstodb/raw/master/visualise_tweets_csv.ipynb).
 
-[![Tweets by day](example.png "Tweets per Day")](http://nbviewer.ipython.org/urls/raw.github.com/urschrei/tweetstodb/master/visualise_tweets.ipynb "IPython Notebook viewer")
-
+### License
+Copyright Stephan Hügel, 2014  
+License: [MIT](license.txt)
