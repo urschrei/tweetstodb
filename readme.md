@@ -20,6 +20,8 @@ If you wish to visualise the data, an [IPython notebook](http://nbviewer.ipython
 
 For offline analysis (using dumped CSV data), run [this IPython notebook](http://nbviewer.ipython.org/urls/github.com/urschrei/tweetstodb/raw/master/visualise_tweets_csv.ipynb).
 
+A subset of tweets is available as a zipped database dump: `tweets.db.zip`. If you wish to use this for analysis, ensure your db exists with the correct credentials, but **do not run the alembic upgrade command**, as the structure will be created by the import – unzip the file, and import into Postgres.
+
 ### License
 Copyright Stephan Hügel, 2014  
 License: [MIT](license.txt)
