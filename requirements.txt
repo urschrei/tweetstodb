@@ -3,7 +3,7 @@ alembic
 pandas
 tornado
 pyzmq
-ipython==0.13.2
-psycopg2==2.5
-requests==1.2.0
-tweepy==2.0
+ipython[all]
+psycopg2
+requests
+tweepy
