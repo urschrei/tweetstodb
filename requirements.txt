@@ -1,6 +1,6 @@
 SQLAlchemy
 alembic
-pandas
+pandas[all]
 tornado
 pyzmq
 ipython[all]
